@@ -1,0 +1,95 @@
+body {
+  background-color: #dddddd;
+}
+
+div.container {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "event"
+    "about"
+    "signup"
+    "footer";
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+header {
+  background-color: #dddddd;
+  grid-area: header;
+}
+
+img.logo {
+  padding: 10px;
+}
+
+img.eventpic {
+  max-width: 100%;
+}
+
+p {
+  text-indent: 50px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: right;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  padding: 5px;
+}
+
+main {
+
+}
+
+section {
+    min-height: 300px;
+}
+
+section#about {
+  background-color: #dddddd;
+  grid-area: about;
+}
+
+tr {
+  max-width: 100%;
+}
+
+th {
+  padding: 5px;
+}
+
+section#event {
+  background-color: #dddddd;
+  grid-area: event;
+}
+
+section#signup {
+  background-color: #dddddd;
+  grid-area: signup;
+  padding: 10px;
+}
+
+footer {
+  background-color: #dddddd;
+  grid-area: footer;
+}
+
+@media (min-width: 800px) {
+  div.container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "event event"
+      "about signup"
+      "footer footer";
+  }
+}
