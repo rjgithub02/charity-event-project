@@ -6,6 +6,7 @@
   <link href="main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
 </head>
 
 <body>
@@ -18,13 +19,17 @@
     </header>
 
     <section id="event">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>A world where everyone has a decent place to live.</h1>
+       </div>
+    </div>
       <h2>About Habitat For Humanity</h2>
       <p>Habitat For Humanity is an organization across the world that partners with other organizations and companies to
       form a better world. Habitat builds homes for families with an that can’t afford to buy a home, and or have a low income.
       The organization was founded in 1976, by the Fuller Family, in Americus, GA. Over its 41 years it has served over
       9.8 million people. They have also helped about 70 countries, and 1,400 communities. They offer short term and long term
       volunteering for those who want to help. They also have ReStore buildings in which you can donate your old things.</p>
-      <img class="eventpic" src="Img/Habitat_main.jpg" width="800">
     </section>
 
     <section id="about">
@@ -40,16 +45,14 @@
           <th>December 18-22, 2017</th>
           <th>8 AM - 5 PM</th>
       </table>
+      <p>Come help us at our new event to help build a home for a family in need! To get more info on the event,
+      fill out the sign up form on the right and check your email!</p>
     </section>
 
     <section id="signup">
       <h2>Signup For The Event!</h2>
       <form action="thank_you.html" method="post">
-        <label for="name">First Name: </label>
-        <input id="name" type="text" name="Name">
-        <br>
-
-        <label for="name">Last Name: </label>
+        <label for="name">Name: </label>
         <input id="name" type="text" name="Name">
         <br>
 
@@ -123,15 +126,12 @@
          <input name="zip" type="text" name="zip" size="1">
          <br>
 
-         <label for="size">Shirt Size: </label>
-         <select id="size" name="Shirt Size">
-            <option value="Small">Small</option>
-            <option value="Medium">Medium</option>
-            <option value="Large">Large</option>
-            <option value="Extra Large">Extra Large</option>
-            <option value="2XL">2XL</option>
-            <option value="3XL">3XL</option>
-         </select>
+         <label for="email">Email Address: </label>
+         <input name="email" type="text" name="email address">
+         <br>
+
+         <label for="number">Phone Number: </label>
+         <input name="number" type="text">
          <br>
 
          <t>Card Type: </t>
@@ -145,7 +145,7 @@
       <br>
 
 
-      <input type="submit" value="Sign Me Up!">
+      <input type="submit" value="Sign Up!">
       </form>
     </section>
 
