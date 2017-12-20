@@ -41,15 +41,32 @@ p {
 }
 
 h1 {
-  font-family: 'Exo 2', sans-serif;
   text-align: right;
+  color: #FF0000;
+  font-family: 'Exo 2', sans-serif;
   padding: 20px;
 }
 
 h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
   font-family: 'Exo 2', sans-serif;
-  font-size: 16px;
-  padding: 5px;
+  padding: 20px;
+}
+
+h3 {
+  display: block;
+  margin-right: auto;
+  color: #FF0000;
+  font-family: 'Exo 2', sans-serif;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 35px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 main {
@@ -91,7 +108,9 @@ section#event {
 }
 
 .hero-text {
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section#signup {
