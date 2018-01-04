@@ -8,6 +8,7 @@ div.container {
   grid-template-columns: 1fr;
   grid-template-areas:
     "header"
+    "hero"
     "event"
     "about"
     "signup"
@@ -25,6 +26,9 @@ header {
 
 img.logo {
   padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.eventpic {
@@ -40,10 +44,8 @@ p {
 }
 
 h1 {
-  text-align: right;
-  color: #FF0000;
-  font-family: 'Exo 2', sans-serif;
-  padding: 20px;
+  text-align: center;
+  font-size: 18px;
 }
 
 h2 {
@@ -98,9 +100,11 @@ section#event {
   grid-area: event;
 }
 
-#slideshow {
-  width: 800px;
-  height: 300px;
+.hero-image {
+  background-image: url("Img/Habitat_main.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 section#signup {
@@ -123,6 +127,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "header header"
+      "hero   hero"
       "event event"
       "about signup"
       "footer footer";
