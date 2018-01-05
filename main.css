@@ -70,10 +70,6 @@ h4 {
   font-family: 'Exo 2', sans-serif;
 }
 
-main {
-
-}
-
 section {
     min-height: 300px;
 }
@@ -117,6 +113,12 @@ section#signup {
   background-color: #dddddd;
   grid-area: signup;
   padding: 10px;
+}
+
+form {
+  border: solid 2px;
+  border-color: red;
+  padding: 4px
 }
 
 input[type=text], select {
