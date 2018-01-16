@@ -10,6 +10,7 @@ div.container {
     "header"
     "hero"
     "event"
+    "homes"
     "about"
     "signup"
     "footer";
@@ -101,6 +102,11 @@ section#event {
   grid-area: event;
 }
 
+section#homes {
+  background-color: #dddddd;
+  grid-area: homes;
+}
+
 .hero-image {
   background-image: url("Img/Habitat_main.jpg");
   background-size: 100% 100%;
@@ -137,6 +143,7 @@ footer {
       "header header"
       "hero   hero"
       "event event"
+      "homes homes"
       "about signup"
       "footer footer";
   }
